@@ -25,3 +25,5 @@ and all create the clint server
 and use without password login 
 
 config file /etc/ansible
+
+
