@@ -17,3 +17,8 @@ ansible $hostname -m yum -a "name=httpd state=present" -s// if you are not use r
 //-s means "sudo"
   start the httpd service command 
   ansible $hostname -m service -a "nmae=httpd state=started"
+
+
+to show copy 
+ansible $hostname -m copy -a"src=$path_sourc_file dest=$path_dest_file"
+
