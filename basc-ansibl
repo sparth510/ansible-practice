@@ -1,0 +1,23 @@
+what is ansible
+-->Ansible is a svery simple automation provding configuration ,application-depl   oyment,infra-service,orchestaion,and many other IT needs
+
+Features of Ansible
+-->open source
+-->written in ythin,so it is a easy to read and extend.
+-->easy installtion and configuration
+-->Highly scalable 
+-->agent less clint configuration
+
+Requminet of ansible 
+--> SSH clinet
+--> python
+
+components of ansible
+-->programs
+--->ansible
+--->ansible-doc
+--->ansible-playbook
+--->ansible-pull
+
+Modules
+-->Perform configuration and system mangament, Example Modules copy services file,yum user group
