@@ -1,7 +1,7 @@
 #this is adhoc command this command is use for direct  install to another server 
  add the hostnmar  /etc/ansible/hosts
  to show module "ansible-doc -l"
- for perticular module show ansible-doc -s $module_namr
+ for particular module show ansible-doc -s $module_namr
 
  fo check the ping use this command
  "ansible $hostname -m ping
@@ -10,4 +10,7 @@
 
  for check the size check in our agent 
 "ansible $hostname -m shell -a "df -h""
-''' this is not a playbook, we will discuss in next file '''
+''' this is not a playbook, playbook will discuss in next file '''
+
+we add web servr in appgroup then the command is 
+ansible appgroup -m yum -a "name=httpd state=present" // if you are not use root user then add on sudo in clint system
