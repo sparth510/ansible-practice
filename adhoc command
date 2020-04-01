@@ -7,3 +7,6 @@
  "ansible $hostname -m ping
  for all group use 
  "ansible all -m ping"
+
+ for check the size check in our agent 
+"ansible $hostname -m shell -a "df -h""
