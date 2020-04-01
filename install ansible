@@ -14,3 +14,12 @@ dbserver or webserver
 #best practices
 
 --> non root account use in configures like ansible clint server or control server
+
+
+useradd $username
+passwd $username
+
+and all create the clint server
+
+
+and use without password login 
