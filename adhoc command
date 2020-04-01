@@ -2,3 +2,6 @@
  add the hostnmar  /etc/ansible/hosts
  to show module "ansible-doc -l"
  for perticular module show ansible-doc -s $module_namr
+
+ fo check the ping use this command
+ "ansible $hostname -m ping
