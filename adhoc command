@@ -5,3 +5,5 @@
 
  fo check the ping use this command
  "ansible $hostname -m ping
+ for all group use 
+ "ansible all -m ping"
