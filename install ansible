@@ -1,0 +1,5 @@
+yum install ansible
+
+also create 2 server 
+example 
+dbserver or webserver
