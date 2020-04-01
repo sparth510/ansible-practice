@@ -13,4 +13,5 @@
 ''' this is not a playbook, playbook will discuss in next file '''
 
 we add web servr in appgroup then the command is 
-ansible appgroup -m yum -a "name=httpd state=present" // if you are not use root user then add on sudo in clint system
+ansible appgroup -m yum -a "name=httpd state=present" -s// if you are not use root user then add on sudo in clint system
+//-s means "sudo"
