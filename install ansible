@@ -1,5 +1,16 @@
 yum install ansible
 
+for validate install ansible
+
+rpm -qa | grep ansible
+
+for check list of repo 
+
+npm -ql ansible -vrsion
+
 also create 2 server 
 example 
 dbserver or webserver
+#best practices
+
+--> non root account use in configures like ansible clint server or control server
