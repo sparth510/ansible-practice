@@ -1,0 +1,6 @@
+what are ansible role
+-->roles in ansible are next level of abstraction of ansible play book 
+
+Benefits of using roles
+-->idea of include file and combine them of form clean, reuseble abstraction
+-->easy to maintain/troubleshooting  the play book 
