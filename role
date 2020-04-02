@@ -4,3 +4,12 @@ what are ansible role
 Benefits of using roles
 -->idea of include file and combine them of form clean, reuseble abstraction
 -->easy to maintain/troubleshooting  the play book 
+
+structere of role
+
+file : contains regular file those needs to copied to target host
+handlers: event handlers
+meta: role dependence 
+templates: simler to file , but it contains dynamic data
+tasks: playbook tasks
+vae/group_var: varible defination
