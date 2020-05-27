@@ -1,0 +1,6 @@
+#hello guys in ansible structure of yml file
+name: give the module name what we are install
+host: in this section we are use hostname
+tasks:  
+   - name : Excute command 'date'
+     command: date
